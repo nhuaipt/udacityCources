@@ -1,0 +1,19 @@
+branch-defaults:
+  default:
+    environment: image-filter-starter-code-dev
+environment-defaults:
+  image-filter-starter-code-dev:
+    branch: null
+    repository: null
+global:
+  application_name: image-filter-starter-code
+  default_ec2_keyname: vockey
+  default_platform: Node.js 16 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: nhuai
+  sc: null
+  workspace_type: Application
